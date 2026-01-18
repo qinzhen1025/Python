@@ -1,0 +1,24 @@
+title: "我的个人主页"
+description: "Portfolio / Projects"
+url: "https://qinzhen1025.github.io"
+baseurl: "/Python"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:name
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: portfolio_item
