@@ -165,7 +165,7 @@ rmse, mae, mape
 ### 1）疫情关键指标总览（趋势观察）
 > 该图建议作为封面图（teaser），用于展示项目整体分析范围与核心变量。
 
-![疫情指标总览](/images/portfolio/china-covid19-arima-forecast/teaser.png)
+![疫情指标总览]({{ "/images/portfolio/china-covid19-arima-forecast/teaser.png" | relative_url }})
 
 **结论要点（建议写法）：**
 - 不同阶段新增确诊与死亡呈现明显波动，反映疫情发展与防控策略变化；
@@ -174,7 +174,7 @@ rmse, mae, mape
 ---
 
 ### 2）相关性分析（整体关系）
-![相关性总览](/images/portfolio/china-covid19-arima-forecast/correlation_overview.png)
+![相关性总览]({{ "/images/portfolio/china-covid19-arima-forecast/correlation_overview.png" | relative_url }})
 
 **结论要点（建议写法）：**
 - 通过相关性矩阵可以快速判断指标之间的同步变化关系；
@@ -183,7 +183,7 @@ rmse, mae, mape
 ---
 
 ### 3）滚动相关性（结构漂移）
-![滚动相关性](/images/portfolio/china-covid19-arima-forecast/rolling_correlation.png)
+![滚动相关性]({{ "/images/portfolio/china-covid19-arima-forecast/rolling_correlation.png" | relative_url }})
 
 **结论要点（建议写法）：**
 - 滚动相关性用于观察“指标关系是否稳定”；
@@ -192,9 +192,9 @@ rmse, mae, mape
 ---
 
 ### 4）滞后相关分析（领先/滞后效应）
-![滞后相关曲线](/images/portfolio/china-covid19-arima-forecast/lag_correlation_curves.png)
+![滞后相关曲线]({{ "/images/portfolio/china-covid19-arima-forecast/lag_correlation_curves.png" | relative_url }})
 
-![滞后相关热图](/images/portfolio/china-covid19-arima-forecast/lag_correlation_heatmap.png)
+![滞后相关热图]({{ "/images/portfolio/china-covid19-arima-forecast/lag_correlation_heatmap.png" | relative_url }})
 
 **结论要点（建议写法）：**
 - 滞后相关用于探索一个变量对另一个变量的“延迟影响”；
@@ -204,9 +204,9 @@ rmse, mae, mape
 ---
 
 ### 5）ARIMA 7 天滚动预测效果（基线模型）
-![ARIMA滚动预测](/images/portfolio/china-covid19-arima-forecast/arima_rolling_forecast.png)
+![ARIMA滚动预测]({{ "/images/portfolio/china-covid19-arima-forecast/arima_rolling_forecast.png" | relative_url }})
 
-![滚动窗口误差](/images/portfolio/china-covid19-arima-forecast/rolling_window_errors.png)
+![滚动窗口误差]({{ "/images/portfolio/china-covid19-arima-forecast/rolling_window_errors.png" | relative_url }})
 
 **结论要点（建议写法）：**
 - ARIMA 作为经典统计模型，适合作为时间序列预测的 baseline；
